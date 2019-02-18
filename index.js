@@ -12,6 +12,12 @@ module.exports = (num1, num2) => {
     })(),
     subtract: (() => {
       return num1 - num2
+    })(),
+    divide: (() => {
+      return num1 / num2
+    })(),
+    multiply: (() => {
+      return num1 / num2
     })()
   }
 }
