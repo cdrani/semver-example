@@ -1,0 +1,10 @@
+{
+  "name": "semver-example",
+  "version": "1.0.0",
+  "description": "semver example",
+  "main": "index.js",
+  "repository": "https://github.com/cdrani/semver-example",
+  "author": "cdrani",
+  "license": "MIT",
+  "private": false
+}
