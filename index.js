@@ -2,7 +2,12 @@
 /**
  * @param {Number} num1 - operand
  * @param {Number} num2 - operand
- * @returns {Object} {add: Number, subtract: Number}
+ * @returns {Object}, {
+ *                          add: Number,
+ *                     subtract: Number,
+ *                       divide: Number,
+ *                     multiply: Number
+ *                     }
  */
 
 module.exports = (num1, num2) => {
@@ -17,7 +22,7 @@ module.exports = (num1, num2) => {
       return num1 / num2
     })(),
     multiply: (() => {
-      return num1 / num2
+      return num1 * num2
     })()
   }
 }
